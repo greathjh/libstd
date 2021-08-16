@@ -1,0 +1,12 @@
+
+
+/Users/admin/Documents/libstdc++/iphone
+//真机
+sudo cp /Users/admin/Documents/libstdc++/iphone/libstdc++.* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/
+
+//模拟器
+cp /Users/admin/Documents/libstdc++/simulator/libstdc++.* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib/
+
+
+//模拟器 Xcode复制到Xcode 13
+sudo cp /Users/admin/Documents/libstdc++/simulator/dylib/* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/system/introspection/
