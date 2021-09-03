@@ -10,3 +10,5 @@ cp simulator/libstdc++.* /Applications/Xcode.app/Contents/Developer/Platforms/iP
 # 模拟器 Xcode复制到Xcode 13
 echo "复制simulator/dylib文件夹文件到模拟器目录"
 sudo cp simulator/dylib/* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/system/introspection/
+
+sudo cp simulator/dylib/* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/
